@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Log In — SHINKAFIT</title>
 <meta name="description" content="Log in to sync your SHINKAFIT progress across devices.">
-<link rel="canonical" href="https://dannyekusu.github.io/shinkafit/login.html">
+<link rel="canonical" href="https://shinkafit.github.io/shinkafit/login.html">
 <meta name="theme-color" content="#101317">
 <link rel="manifest" href="manifest.json">
 <link rel="icon" href="assets/icons/icon.svg" type="image/svg+xml">
@@ -15,8 +15,8 @@
 <meta property="og:site_name" content="SHINKAFIT">
 <meta property="og:title" content="Log In — SHINKAFIT">
 <meta property="og:description" content="Log in to sync your SHINKAFIT progress across devices.">
-<meta property="og:url" content="https://dannyekusu.github.io/shinkafit/login.html">
-<meta property="og:image" content="https://dannyekusu.github.io/shinkafit/assets/icons/og-image.png">
+<meta property="og:url" content="https://shinkafit.github.io/shinkafit/login.html">
+<meta property="og:image" content="https://shinkafit.github.io/shinkafit/assets/icons/og-image.png">
 <meta name="twitter:card" content="summary_large_image">
 <script>(function(){try{var d=JSON.parse(localStorage.getItem('sf:device')||'{}');var r=document.documentElement;r.setAttribute('data-theme',(d.theme==='light'||d.theme==='dark')?d.theme:'system');if(d.motion==='reduce')r.setAttribute('data-motion','reduce');}catch(e){}})();</script>
 <link rel="stylesheet" href="css/style.css">
@@ -49,7 +49,7 @@
   <div class="auth-card panel">
     <h1>Log in</h1>
     <p class="lead" style="font-size:1rem">Welcome back. Your progress syncs once you log in.</p>
-    <div id="not-configured" class="notice notice--warning" role="note" hidden><svg class="icon" aria-hidden="true"><use href="#i-info"></use></svg><p>Accounts aren't connected yet — this needs a one-time setup step (a free Supabase project). See <a href="https://github.com/DannyEkusu/shinkafit/blob/main/backend/database-schema.sql">backend/database-schema.sql</a> for the exact steps. Until then, every workout feature still works fully as a guest — your data stays on this device.</p></div>
+    <div id="not-configured" class="notice notice--warning" role="note" hidden><svg class="icon" aria-hidden="true"><use href="#i-info"></use></svg><p>Accounts aren't connected yet — this needs a one-time setup step (a free Supabase project). See <a href="https://github.com/shinkafit/shinkafit/blob/main/backend/database-schema.sql">backend/database-schema.sql</a> for the exact steps. Until then, every workout feature still works fully as a guest — your data stays on this device.</p></div>
     <div id="login-error" class="notice notice--danger" role="alert" hidden></div>
     <form id="login-form" novalidate>
       <div class="field"><label for="email">Email</label><input class="input" type="email" id="email" name="email" autocomplete="email" required></div>

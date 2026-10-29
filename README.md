@@ -4,7 +4,7 @@
 
 A free, no-framework workout platform: exercise and workout libraries, structured routines, a built-in interval timer, progress tracking, and optional account sync — built with plain HTML, CSS and vanilla JavaScript so it runs anywhere, including free on GitHub Pages.
 
-Live site: https://dannyekusu.github.io/shinkafit/
+Live site: https://shinkafit.github.io/shinkafit/
 
 ## Features
 
