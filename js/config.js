@@ -18,8 +18,8 @@
 export const CONFIG = Object.freeze({
   APP_NAME: 'SHINKAFIT',
   VERSION: '1.0.0',
-  SUPABASE_URL: 'https://yhmtrmhndkiaytfbiacz.supabase.co',
-  SUPABASE_ANON_KEY: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InlobXRybWhuZGtpYXl0ZmJpYWN6Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3OTA2OTA3NTUsImV4cCI6MjEwNjI2Njc1NX0.fEdDZ01fjAOTMDL5c8j9-ndcesyUEi2HdmLG-KARIec',
+  SUPABASE_URL: 'https://mztxrnfviyvjocnhayks.supabase.co',
+  SUPABASE_ANON_KEY: 'sb_publishable_3r9dxqzbfsXEI3Q55a_ELQ_kDkmYMv6',
   ANALYTICS_FLUSH_MS: 8000,
   MAX_HISTORY_PULL: 1000,
 });
